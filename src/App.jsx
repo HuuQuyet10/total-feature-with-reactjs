@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, SliderPicture } from './components';
+import { Menu, SliderPicture, BtnAdd } from './components';
 import './App.scss'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Menu />
       <SliderPicture />
+      <BtnAdd />
     </div>
   )
 }
